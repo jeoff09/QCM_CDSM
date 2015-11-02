@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QCM</string>
+    <string name="hello_nom"> Login</string>
+    <string name="default_text"> Votre Login</string>
+    <string name="hello_prenom"> Mot de passe </string>
+    <string name="new_text"> ici mon nouveau texte</string>
+    <string name="default_text_prenom"> Votre Mot de passe</string>
+    <string name="login_button"> Identifier</string>
+    <string name="show_ident">%1$s %2$s</string>
+</resources>
