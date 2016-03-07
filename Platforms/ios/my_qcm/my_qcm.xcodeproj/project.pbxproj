@@ -16,6 +16,24 @@
 		2D6389391C8D886900012498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6389371C8D886900012498 /* LaunchScreen.storyboard */; };
 		2D6389441C8D886900012498 /* my_qcmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389431C8D886900012498 /* my_qcmTests.m */; };
 		2D63894F1C8D886A00012498 /* my_qcmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D63894E1C8D886A00012498 /* my_qcmUITests.m */; };
+		2D63897F1C8DB5F300012498 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D63897E1C8DB5F300012498 /* Answer.m */; };
+		2D6389821C8DB61400012498 /* AnswerSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389811C8DB61400012498 /* AnswerSQLiteAdapter.m */; };
+		2D6389851C8DB64600012498 /* CategSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389841C8DB64600012498 /* CategSQLiteAdapter.m */; };
+		2D63898B1C8DB67200012498 /* Categ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D63898A1C8DB67200012498 /* Categ.m */; };
+		2D63898E1C8DB69300012498 /* McqSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D63898D1C8DB69300012498 /* McqSQLiteAdapter.m */; };
+		2D6389911C8DB6AD00012498 /* Mcq.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389901C8DB6AD00012498 /* Mcq.m */; };
+		2D6389941C8DB6C800012498 /* MediaSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389931C8DB6C800012498 /* MediaSQLiteAdapter.m */; };
+		2D6389971C8DB6D800012498 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389961C8DB6D800012498 /* Media.m */; };
+		2D63899A1C8DB70B00012498 /* QuestionSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389991C8DB70B00012498 /* QuestionSQLiteAdapter.m */; };
+		2D63899D1C8DB72200012498 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D63899C1C8DB72200012498 /* Question.m */; };
+		2D6389A01C8DB76200012498 /* ResultSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D63899F1C8DB76200012498 /* ResultSQLiteAdapter.m */; };
+		2D6389A31C8DB77100012498 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389A21C8DB77100012498 /* Result.m */; };
+		2D6389A61C8DB79700012498 /* TeamSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389A51C8DB79700012498 /* TeamSQLiteAdapter.m */; };
+		2D6389A91C8DB7AC00012498 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389A81C8DB7AC00012498 /* Team.m */; };
+		2D6389AC1C8DB7DE00012498 /* TypSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389AB1C8DB7DE00012498 /* TypSQLiteAdapter.m */; };
+		2D6389AF1C8DB7EE00012498 /* Typ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389AE1C8DB7EE00012498 /* Typ.m */; };
+		2D6389B21C8DB80E00012498 /* UserSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389B11C8DB80E00012498 /* UserSQLiteAdapter.m */; };
+		2D6389B51C8DB82200012498 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6389B41C8DB82200012498 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,42 @@
 		2D63894A1C8D886900012498 /* my_qcmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_qcmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D63894E1C8D886A00012498 /* my_qcmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = my_qcmUITests.m; sourceTree = "<group>"; };
 		2D6389501C8D886A00012498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D63897D1C8DB5F300012498 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Answer.h; path = class/Answer.h; sourceTree = "<group>"; };
+		2D63897E1C8DB5F300012498 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Answer.m; path = class/Answer.m; sourceTree = "<group>"; };
+		2D6389801C8DB61400012498 /* AnswerSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnswerSQLiteAdapter.h; path = data/AnswerSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389811C8DB61400012498 /* AnswerSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnswerSQLiteAdapter.m; path = data/AnswerSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389831C8DB64600012498 /* CategSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategSQLiteAdapter.h; path = data/CategSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389841C8DB64600012498 /* CategSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategSQLiteAdapter.m; path = data/CategSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389891C8DB67200012498 /* Categ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Categ.h; path = class/Categ.h; sourceTree = "<group>"; };
+		2D63898A1C8DB67200012498 /* Categ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Categ.m; path = class/Categ.m; sourceTree = "<group>"; };
+		2D63898C1C8DB69300012498 /* McqSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = McqSQLiteAdapter.h; path = data/McqSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D63898D1C8DB69300012498 /* McqSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = McqSQLiteAdapter.m; path = data/McqSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D63898F1C8DB6AD00012498 /* Mcq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mcq.h; path = class/Mcq.h; sourceTree = "<group>"; };
+		2D6389901C8DB6AD00012498 /* Mcq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mcq.m; path = class/Mcq.m; sourceTree = "<group>"; };
+		2D6389921C8DB6C800012498 /* MediaSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaSQLiteAdapter.h; path = data/MediaSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389931C8DB6C800012498 /* MediaSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaSQLiteAdapter.m; path = data/MediaSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389951C8DB6D800012498 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Media.h; path = class/Media.h; sourceTree = "<group>"; };
+		2D6389961C8DB6D800012498 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Media.m; path = class/Media.m; sourceTree = "<group>"; };
+		2D6389981C8DB70B00012498 /* QuestionSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionSQLiteAdapter.h; path = data/QuestionSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389991C8DB70B00012498 /* QuestionSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionSQLiteAdapter.m; path = data/QuestionSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D63899B1C8DB72200012498 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = class/Question.h; sourceTree = "<group>"; };
+		2D63899C1C8DB72200012498 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = class/Question.m; sourceTree = "<group>"; };
+		2D63899E1C8DB76200012498 /* ResultSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultSQLiteAdapter.h; path = data/ResultSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D63899F1C8DB76200012498 /* ResultSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultSQLiteAdapter.m; path = data/ResultSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389A11C8DB77100012498 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Result.h; path = class/Result.h; sourceTree = "<group>"; };
+		2D6389A21C8DB77100012498 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Result.m; path = class/Result.m; sourceTree = "<group>"; };
+		2D6389A41C8DB79700012498 /* TeamSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamSQLiteAdapter.h; path = data/TeamSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389A51C8DB79700012498 /* TeamSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamSQLiteAdapter.m; path = data/TeamSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389A71C8DB7AC00012498 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = class/Team.h; sourceTree = "<group>"; };
+		2D6389A81C8DB7AC00012498 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = class/Team.m; sourceTree = "<group>"; };
+		2D6389AA1C8DB7DE00012498 /* TypSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypSQLiteAdapter.h; path = data/TypSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389AB1C8DB7DE00012498 /* TypSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TypSQLiteAdapter.m; path = data/TypSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389AD1C8DB7EE00012498 /* Typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Typ.h; path = class/Typ.h; sourceTree = "<group>"; };
+		2D6389AE1C8DB7EE00012498 /* Typ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Typ.m; path = class/Typ.m; sourceTree = "<group>"; };
+		2D6389B01C8DB80E00012498 /* UserSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSQLiteAdapter.h; path = data/UserSQLiteAdapter.h; sourceTree = "<group>"; };
+		2D6389B11C8DB80E00012498 /* UserSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSQLiteAdapter.m; path = data/UserSQLiteAdapter.m; sourceTree = "<group>"; };
+		2D6389B31C8DB82200012498 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = class/User.h; sourceTree = "<group>"; };
+		2D6389B41C8DB82200012498 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = class/User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +137,8 @@
 		2D63891A1C8D886900012498 = {
 			isa = PBXGroup;
 			children = (
+				2D6389611C8DAFBE00012498 /* data */,
+				2D6389601C8DAFAC00012498 /* class */,
 				2D6389251C8D886900012498 /* my_qcm */,
 				2D6389421C8D886900012498 /* my_qcmTests */,
 				2D63894D1C8D886A00012498 /* my_qcmUITests */,
@@ -141,6 +197,56 @@
 				2D6389501C8D886A00012498 /* Info.plist */,
 			);
 			path = my_qcmUITests;
+			sourceTree = "<group>";
+		};
+		2D6389601C8DAFAC00012498 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				2D63897D1C8DB5F300012498 /* Answer.h */,
+				2D63897E1C8DB5F300012498 /* Answer.m */,
+				2D6389891C8DB67200012498 /* Categ.h */,
+				2D63898A1C8DB67200012498 /* Categ.m */,
+				2D63898F1C8DB6AD00012498 /* Mcq.h */,
+				2D6389901C8DB6AD00012498 /* Mcq.m */,
+				2D6389951C8DB6D800012498 /* Media.h */,
+				2D6389961C8DB6D800012498 /* Media.m */,
+				2D63899B1C8DB72200012498 /* Question.h */,
+				2D63899C1C8DB72200012498 /* Question.m */,
+				2D6389A11C8DB77100012498 /* Result.h */,
+				2D6389A21C8DB77100012498 /* Result.m */,
+				2D6389A71C8DB7AC00012498 /* Team.h */,
+				2D6389A81C8DB7AC00012498 /* Team.m */,
+				2D6389AD1C8DB7EE00012498 /* Typ.h */,
+				2D6389AE1C8DB7EE00012498 /* Typ.m */,
+				2D6389B31C8DB82200012498 /* User.h */,
+				2D6389B41C8DB82200012498 /* User.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		2D6389611C8DAFBE00012498 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2D6389801C8DB61400012498 /* AnswerSQLiteAdapter.h */,
+				2D6389811C8DB61400012498 /* AnswerSQLiteAdapter.m */,
+				2D6389831C8DB64600012498 /* CategSQLiteAdapter.h */,
+				2D6389841C8DB64600012498 /* CategSQLiteAdapter.m */,
+				2D63898C1C8DB69300012498 /* McqSQLiteAdapter.h */,
+				2D63898D1C8DB69300012498 /* McqSQLiteAdapter.m */,
+				2D6389921C8DB6C800012498 /* MediaSQLiteAdapter.h */,
+				2D6389931C8DB6C800012498 /* MediaSQLiteAdapter.m */,
+				2D6389981C8DB70B00012498 /* QuestionSQLiteAdapter.h */,
+				2D6389991C8DB70B00012498 /* QuestionSQLiteAdapter.m */,
+				2D63899E1C8DB76200012498 /* ResultSQLiteAdapter.h */,
+				2D63899F1C8DB76200012498 /* ResultSQLiteAdapter.m */,
+				2D6389A41C8DB79700012498 /* TeamSQLiteAdapter.h */,
+				2D6389A51C8DB79700012498 /* TeamSQLiteAdapter.m */,
+				2D6389AA1C8DB7DE00012498 /* TypSQLiteAdapter.h */,
+				2D6389AB1C8DB7DE00012498 /* TypSQLiteAdapter.m */,
+				2D6389B01C8DB80E00012498 /* UserSQLiteAdapter.h */,
+				2D6389B11C8DB80E00012498 /* UserSQLiteAdapter.m */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +379,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D63899A1C8DB70B00012498 /* QuestionSQLiteAdapter.m in Sources */,
+				2D63898E1C8DB69300012498 /* McqSQLiteAdapter.m in Sources */,
+				2D6389A31C8DB77100012498 /* Result.m in Sources */,
+				2D6389911C8DB6AD00012498 /* Mcq.m in Sources */,
+				2D6389A91C8DB7AC00012498 /* Team.m in Sources */,
+				2D6389B21C8DB80E00012498 /* UserSQLiteAdapter.m in Sources */,
+				2D6389B51C8DB82200012498 /* User.m in Sources */,
+				2D6389A01C8DB76200012498 /* ResultSQLiteAdapter.m in Sources */,
 				2D63892E1C8D886900012498 /* ViewController.m in Sources */,
 				2D6389341C8D886900012498 /* my_qcm.xcdatamodeld in Sources */,
+				2D6389941C8DB6C800012498 /* MediaSQLiteAdapter.m in Sources */,
+				2D6389A61C8DB79700012498 /* TeamSQLiteAdapter.m in Sources */,
+				2D6389851C8DB64600012498 /* CategSQLiteAdapter.m in Sources */,
+				2D6389971C8DB6D800012498 /* Media.m in Sources */,
 				2D63892B1C8D886900012498 /* AppDelegate.m in Sources */,
+				2D6389AF1C8DB7EE00012498 /* Typ.m in Sources */,
 				2D6389281C8D886900012498 /* main.m in Sources */,
+				2D63897F1C8DB5F300012498 /* Answer.m in Sources */,
+				2D63899D1C8DB72200012498 /* Question.m in Sources */,
+				2D6389AC1C8DB7DE00012498 /* TypSQLiteAdapter.m in Sources */,
+				2D63898B1C8DB67200012498 /* Categ.m in Sources */,
+				2D6389821C8DB61400012498 /* AnswerSQLiteAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +626,7 @@
 				2D6389551C8D886A00012498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D6389561C8D886A00012498 /* Build configuration list for PBXNativeTarget "my_qcmTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +635,7 @@
 				2D6389581C8D886A00012498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D6389591C8D886A00012498 /* Build configuration list for PBXNativeTarget "my_qcmUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +644,7 @@
 				2D63895B1C8D886A00012498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
