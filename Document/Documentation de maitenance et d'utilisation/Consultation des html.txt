@@ -1,0 +1,12 @@
+
+Pour consulter les documentations sur le format HTML deux méthodes : 
+
+- Directement dans les dossiers ci-dessus en sélectionnant :
+
+Maintenance : Fichier HTML Documentation de maintenance.html
+Utilisateur : Fichier HTML My_QCM.html
+
+- Via l'url dans le site web : 
+
+chemin_du_dossier/My_QCM/web/Maintenance/HTML/Documentation%20de%20maintenance.html
+chemin_du_dossier/My_QCM/web/Utilisateur/HTML/My_QCM.html
